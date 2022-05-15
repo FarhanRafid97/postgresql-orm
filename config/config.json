@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "farhan_binar",
+    "password": "farhan322",
+    "database": "ecommerce_development",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "farhan_binar",
+    "password": "farhan322",
+    "database": "ecommerce_test",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "farhan_binar",
+    "password": "farhan322",
+    "database": "ecommerce_production",
+    "host": "localhost",
+    "dialect": "postgres"
+  }
+}

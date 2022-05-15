@@ -1,0 +1,29 @@
+POST http://localhost:7888/product
+Content-Type: application/json
+
+{
+    "product_name":"Powerbank Anker PowerCore Metro 10000 PD 25W - A1246",
+    "category":"Portable Power Bank",
+    "stock":322,
+    "color":"hitam,putih",
+    "deskripsi":"Pengisi daya portabel Anker PowerCore Metro 10000 PD USB-C Power Delivery.Menggabungkan teknologi PowerIQ dan Power Delivery dalam paket portabel yang menakjubkan.",
+    "harga":25000,
+    "seller_name":"farhan",
+    "new":true
+}
+
+
+###
+GET http://localhost:7888/product
+
+###
+PUT http://localhost:7888/product/1
+Content-Type: application/json
+
+{
+    "product_name":"JBL T500 BT - Black"
+}
+
+###
+DELETE  http://localhost:7888/product/4
+
